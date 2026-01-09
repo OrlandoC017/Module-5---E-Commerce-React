@@ -7,9 +7,9 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faBolt, faBookOpen, faTags } from '@fortawesome/free-solid-svg-icons';
+import { faBolt, faBookOpen, faTags, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags);
+library.add(faBars, faShoppingCart, faTimes, faBolt, faBookOpen, faTags, faStar, faStarHalfAlt);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
