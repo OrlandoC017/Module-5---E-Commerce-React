@@ -6,16 +6,15 @@ import Books from "./Pages/Books.jsx";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Nav />
+    <div className="App">
+      <Nav />
+      <Router>
         <Routes>
-          <Route path="/" element={Home} />
-          <Route path="/books" element={Books} />
+          <Route path="/" element={<Home />} />
+          <Route path="/books" element={<Books />} />
         </Routes>
-        <Home />
-      </div>
-    </Router>
+      </Router>
+    </div>
   );
 }
 
